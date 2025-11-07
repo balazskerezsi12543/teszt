@@ -1,0 +1,46 @@
+
+/* Kerezsi Balázs 9.c. */
+
+body {
+    background-image: url('familyguy.jpg');
+    background-repeat: no-repeat;
+    background-position: 750px 50px;
+    background-size: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    width: 700px;
+}
+
+h1 {
+    background-color: #009dd4;
+    color: white;
+    text-align: center;
+    font-variant: small-caps ;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #009dd4;
+    letter-spacing: 1px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+h2::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 8px;
+  margin-left: 210px;
+}
+
+.cstag {
+    font-weight: bold;
+    color: #009dd4;
+}
